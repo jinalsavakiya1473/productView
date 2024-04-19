@@ -1,0 +1,237 @@
+a,h1,h2,h3,h4,h5,h6,p,li,ul{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.item .product-image,
+.product-view .img-pro{
+  height: 280px;
+}
+.item .product-image .img,
+.product-view .small-img,
+.total-bill .img{
+  object-fit: cover !important;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+.total-bill .pro-img{
+  height: 40px;
+  width: 40px;
+}
+.total-bill h5{
+  margin-bottom: 20px !important;
+}
+.total-bill .total-price p{
+  font-size: 12px;
+}
+.pro-img{
+  height: 400px;
+  width: 500px;
+}
+.pro-img img{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+.mini-img .img{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.mini-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.single-product{
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+.cart button{
+  background-color: white;
+  color: black ;
+  border: none;
+  padding: 5px 25px;
+}
+.fixed {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; 
+  background-color:#1A0F0D ;
+  z-index: 9999;
+}
+a{
+  text-decoration: none !important;
+}
+li{
+  list-style: none;
+}
+.pro-des span{
+  color: red;
+  font-weight: bold;
+}
+.bor{
+  border-right: 3px solid red;
+}
+.pro-des p{
+  padding: 0 10px !important;
+  margin-right: 10px !important;
+}
+.dis-price{
+  background-color: #FAFAFA;
+  padding: 30px;
+  border-radius: 10px;
+}
+.dis-price h3{
+  color: red;
+  font-weight: bold;
+}
+.dis-price .dis-per{
+  background-color: red;
+  color: white;
+  padding: 0 10px !important;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
+.inc-dec-btn button{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: 2px solid gray;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-btn{
+  color: red;
+  background-color: #FFECE5;
+  border: 2px solid red;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+.navbar{
+  background-color: #1A0F0D;
+}
+.navbar a h2 span{
+  color: #FF006C;
+}
+.navbar a p{
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: gray;
+  font-weight: bold;
+}
+.navbar ul li a{
+  font-size: 17px;
+  color: white;
+  padding: 0 20px !important;
+  transition: .5s;
+  &:hover{
+    color: #FF006C;
+  }
+}
+.category ul li a{
+  color: gray;
+  font-size: 18px;
+  font-weight: bold;
+  transition: .5s;
+  letter-spacing: 1px;
+  &:hover{
+    color: #FF006C;
+  }
+}
+.search-box input{
+  height: 50px;
+  width: 94.5%;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid black;
+  &:focus{
+    border: 2px solid #FF006C;
+  }
+}
+.search-box button{
+  background-color: black;
+  color: white;
+}
+.category ul li{
+  padding: 5px 0 !important;
+}
+.product-cont h5 a{
+  transition: .5s;
+  &:hover{
+    color: #FF006C !important;
+  }
+}
+.hover-icn{
+  position: absolute;
+  right: -15%;
+  top: 2%;
+  transition: .5s;
+}
+.product .item:hover .hover-icn{
+  right: 2% !important;
+}
+.wish{
+  font-size: 20px;
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 5px;
+  position: relative;
+  transition: .5s;
+  &:hover{
+    background-color: black;
+    color: white;
+  }
+}
+.inc-dec button{
+  height: 45px;
+  width: 45px;
+  background-color: rgb(122, 122, 122);
+  border: none;
+  font-size: 30px !important;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wish:hover .icn{
+  color: white !important;
+}
+.wish .wish-cont{
+  position: absolute;
+  color: black;
+  background-color: white;
+  left:-45px;
+  font-size: 12px;
+  padding: 3px 10px !important;
+  border-radius: 5px;
+  top: 50%;
+  transform: translatey(-50%);
+  transition: .5s;
+  opacity: 0;
+  visibility: hidden;
+}
+.wish:hover .wish-cont{
+  left: -65px;
+  visibility: visible;
+  opacity: 1;
+}
+table tr th{
+  padding-right: 50px;
+  padding-bottom: 8px;
+}
+@media screen and (min-width:992px){
+  .category .category-list{
+    border-right: 1px solid rgb(203, 201, 201);
+  }
+}
